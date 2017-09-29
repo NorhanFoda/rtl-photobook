@@ -1,0 +1,153 @@
+h1{
+	font-size: 1.5em;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+	color: black;
+}
+/*header start*/
+.container-fluid .fa{
+	color: black;
+	font-size: 2em;	
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.navbar-header h1{
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bolder;
+}
+#phone a{
+	background: #ffcc00;
+	border-radius: 5px;
+	text-align: center;
+}
+#phone{
+	margin-top: 20px;
+}
+.navbar-header{
+	margin-left: 20px;
+}
+.navbar-right{
+	margin-right: 20px;
+}
+.navbar{
+	background: white;
+}
+/*header end*/
+/*create photo section start*/
+.create-photo{
+	background-image: url('../imgs/book2.jpg');
+	background-size: cover;
+	height: 400px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	margin: 0px;
+}
+.create-photo h2{
+	font-family: 'Bubbler One', sans-serif;
+	font-weight: lighter;
+	text-align: center;
+	color: white;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+.create-photo h2:first-letter{
+	font-size: 2.6em;
+}
+.create-photo p{
+	font-family: 'Bubbler One', sans-serif;
+	font-weight: lighter;
+	text-align: center;
+	color: white;
+	font-size: 1.3em;
+	margin-top: -10px;
+
+}
+.create-photo a{
+	text-align: center;
+	background-color: transparent;
+	border: 1px solid white;
+	text-transform: uppercase;
+	font-family: 'Bubbler One', sans-serif;
+	font-weight: lighter;
+	margin-top: 100px;
+}
+.create-photo a:hover{
+	background-color: white;
+	color: black;
+	border: 1px solid white;
+	opacity: 0.6;
+	box-shadow: 5px 5px 15px black;
+}
+/*create photo section end*/
+/*links section start*/
+.links .service{
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+	border: 2px solid yellow;
+	margin-left: 50px;
+	margin-top: 100px;
+	background: white;
+	text-align: center;
+}
+.service .fa{
+	font-size: 3.5em;
+	text-align: center;
+	margin-top: 50px;
+}
+.service a{
+	font-family: 'Bubbler One', sans-serif;
+	font-weight: lighter;
+	padding-top: 50px;
+	text-align: center;
+	font-size: 1.5em;
+	display: block;
+}
+.service a:hover{
+	text-shadow: 2px 2px 8px black;
+}
+#line{
+	width: 100%;
+	border-top: 2px dashed yellow;
+	margin-top: 170px;
+}
+/*links section end*/
+/*advantage sectio start*/
+.adv{
+	background: #f2f2f2;
+	margin-top: 120px;
+	height: auto;
+	text-align: center;
+}
+.adv h2{
+	font-family: 'Bubbler One', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+.adv h2:first-letter{
+	font-size: 1.5em;
+}
+.adv img{
+	width: 150px;
+	height: 150px;
+	margin-top: 50px;
+	border-radius: 100px;
+}
+.adv a{
+	display: block;
+	text-align: center;
+	font-family: 'Bubbler One', sans-serif;
+	font-size: 1.3em;
+}
+.adv a:hover{
+	text-shadow: 2px 2px 8px black;
+}
+/*advantage section end*/
